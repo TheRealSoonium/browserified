@@ -34,12 +34,12 @@ git clone https://github.com/TheRealSoonium/browserified
 cd browserified
 ```
 
-Install dependencies listed in package.json
+Install dependencies listed in ./package.json
 ```
 npm install
 ```
 
-Delete and recreate the browserified modules in the build/ directory
+Delete and recreate the browserified modules in ./build/
 ```
 npm run clean
 npm run build
