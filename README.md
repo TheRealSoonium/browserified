@@ -31,12 +31,13 @@ npm run build
 git status
 
 # You can now commit and push 
-
+git commit -a
+git push 
 
 
 #OTHER NOTES:
 
-# The last version of @solana/web3.js for which browserify works is 1.75.0 so that is the version that is used.
+# The last version of @solana/web3.js for which browserify works is 1.75.0 so that is the version that is used. Subsequent versions result in 'SyntaxError: Unexpected token'.
 
 
 
