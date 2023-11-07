@@ -1,0 +1,24 @@
+
+# ignore linux backup files, ending in ~
+*~
+
+# ignore temporary emacs files, starting with .# or starting and endint with #
+\#*\#
+\.\#*
+
+# ignore all logs
+*.log
+
+# we need to commit/push the build directory for this repository
+# ignore all files in any directory named build
+#build/
+
+# Javascript: ignore node_modules and package-lock.json
+#   these should be managed by npm 
+node_modules/
+package-lock.json
+
+
+# ignore any TODO.txt files
+TODO.txt
+
