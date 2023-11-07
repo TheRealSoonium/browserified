@@ -1,6 +1,6 @@
 # The purpose of this repository is to provide the ability to generate browserified versions of select javascript modules.
 
-** These instructions are for LINUX. **
+**These instructions are for LINUX**
 
 You will need git, npm, node, browserify (globally installed)
 
@@ -8,7 +8,7 @@ You will need git, npm, node, browserify (globally installed)
 sudo apt install git
 ```
 
-# Install nvm (brings npm and node)
+Install nvm (brings npm and node)
 See https://github.com/nvm-sh/nvm
 This creates ~/.nvm/ and adds some variables to the end of ~/.bashrc:
 ```
