@@ -4,7 +4,7 @@
   "description": "browserified modules",
   "scripts": {
     "clean": "rm build/*",
-    "build": "browserify anchor-input.js --standalone BrowserScore -p esmify --exclude process -o build/anchor-browserified.js && browserify buffer-input.js --standalone BrowserScoreBuffer -p esmify --exclude process -o build/buffer-browserified.js && browserify node_modules/bs58/index.js -o build/bs58-browserified.js --standalone bs58"
+    "build": "browserify anchor-input.js --standalone BrowserAnchor -p esmify --exclude process -o build/anchor-browserified.js && browserify buffer-input.js --standalone BrowserBuffer -p esmify --exclude process -o build/buffer-browserified.js && browserify node_modules/bs58/index.js -o build/bs58-browserified.js --standalone bs58"
   },
   "keywords": [],
   "author": "",
